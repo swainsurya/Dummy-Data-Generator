@@ -1,0 +1,28 @@
+{
+  "name": "dummy-data-generator",
+  "version": "1.0.0",
+  "description": "A simple dummy data generator app ",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "dummy",
+    "data",
+    "generator",
+    "nodejs",
+    "js",
+    "express",
+    "mongodb"
+  ],
+  "author": "surya",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1",
+    "nodemon": "^3.1.0"
+  }
+}
